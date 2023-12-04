@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Awesome Cars Dealership</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#models">Models</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section with Background Image -->
+    <header class="hero-section">
+        <h1>Welcome to Awesome Cars Dealership</h1>
+        <p>Discover the perfect ride for your journey.</p>
+    </header>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <video controls>
+            <source src="promo_video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Car Models Section -->
+    <section id="models" class="car-models-section">
+        <h2>Explore Our Models</h2>
+        <div class="car-model">
+            <img src="model1.jpg" alt="Model 1">
+            <h3>Model 1</h3>
+            <p>Experience luxury and performance in our flagship model.</p>
+            <button>View Details</button>
+        </div>
+        <!-- Add more car models with similar structure -->
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Advanced Safety Systems</li>
+            <li>Efficient Fuel Consumption</li>
+            <li>Smart Connectivity</li>
+            <li>Customizable Interior</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section with Input Fields -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Awesome Cars Dealership. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
